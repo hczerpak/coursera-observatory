@@ -20,10 +20,6 @@ class ExtractionTest extends FunSuite {
     ))
   }
 
-  test("testLocationYearlyAverageRecords") {
-
-  }
-
   test("testToCelsius") {
     assert(toCelsius(356d) == 180d)
     assert(toCelsius(212d) == 100d)
